@@ -1,0 +1,1 @@
+document.querySelector('.menu')?.addEventListener('click',e=>{const n=document.querySelector('.links');const open=n.classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',String(open));e.currentTarget.textContent=open?'×':'☰'});
