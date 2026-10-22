@@ -41,3 +41,12 @@ body{background:#fcfcf8;color:#22352f}
 
 /* Project page: keep public website and GitHub links side-by-side, wrapping on small screens. */
 .project-links{display:flex;flex-wrap:wrap;align-items:center;gap:12px}.project-links .btn{margin-top:18px}.project-links .btn svg{flex-shrink:0}
+
+/* 第11稿：TSUGARU TABLEの運用実績ハイライト */
+.sns-highlights{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:24px 0 20px}
+.sns-highlight{background:#edf3eb;border:1px solid #dce8d9;padding:24px 20px;text-align:center}
+.sns-highlight strong{display:block;font:600 clamp(32px,4vw,48px) Georgia,serif;color:#245543;line-height:1.25}
+.sns-highlight strong span{font:500 15px sans-serif;margin-left:4px}
+.sns-highlight b{display:block;margin-top:7px;font-size:15px;color:#245543}
+.sns-highlight small{display:block;margin-top:5px;color:#5b7263;font-size:12px}
+@media(max-width:480px){.sns-highlights{gap:9px}.sns-highlight{padding:20px 8px}.sns-highlight strong{font-size:clamp(27px,8vw,36px)}.sns-highlight b{font-size:13px}.sns-highlight small{font-size:11px}}
